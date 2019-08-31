@@ -16,7 +16,7 @@ class Todolist extends React.Component
         return(
             <div>{
                 listitems.map((item,i)=>
-                <Todoitem removeItem={this.props.handleRemove} index={i} items={item}/>
+                <Todoitem removeItem={this.props.handleRemove} index={i} items={item} id={this.props.id} />
                 )
             }
             </div>

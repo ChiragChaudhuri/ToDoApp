@@ -7,7 +7,7 @@ class Todoitem extends React.Component{
         return(
             <div>
             <ul>
-                <li>{this.props.items}<button onClick ={()=>this.props.removeItem(this.props.index)}>Done</button></li>
+                <li>{this.props.items}<button onClick ={()=>this.props.removeItem(this.props.id[this.props.index])}>Done</button></li>
             </ul> 
                 
             </div>
